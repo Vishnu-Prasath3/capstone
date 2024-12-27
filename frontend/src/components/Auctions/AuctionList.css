@@ -1,0 +1,38 @@
+.auction-list {
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 200px;
+  text-align: center;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.card p {
+  color: #666;
+  font-size: 0.9em;
+} 
