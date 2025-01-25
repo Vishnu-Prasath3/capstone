@@ -5,8 +5,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "jest",
-    "build": "react-scripts build"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
