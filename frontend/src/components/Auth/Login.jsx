@@ -16,7 +16,7 @@ const Login = () => (
             headers: {
               "Content-Type": "application/json",
             },
-            body: JSON.stringify(values),
+            body: JSON.stringify({values}),
           });
           if (response.ok) {
             // Handle successful login
