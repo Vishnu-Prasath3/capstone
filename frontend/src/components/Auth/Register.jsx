@@ -10,7 +10,7 @@ const Register = () => (
       initialValues={{ name: "", email: "", password: "" }}
       onSubmit={async (values) => {
         try {
-          const response = await fetch(`${API_BASE_URL}/register`, {
+          const response = await fetch(`${API_BASE_URL}/auth/register`, {
             // Use the API endpoint
             method: "POST",
             headers: {

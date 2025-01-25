@@ -10,7 +10,7 @@ const Login = () => (
       initialValues={{ email: "", password: "" }}
       onSubmit={async (values) => {
         try {
-          const response = await fetch(`${API_BASE_URL}/login`, {
+          const response = await fetch(`${API_BASE_URL}/auth/login`, {
             // Use the API endpoint
             method: "POST",
             headers: {

@@ -3,9 +3,6 @@ import { API_BASE_URL } from "./main"; // Adjust the path as necessary
 
 export const AuthContext = createContext();
 
-// Define the API base URL
-const API_BASE_URL_LOCAL = "https://your-api-url.com/api"; // Replace with your actual API URL
-
 export const AuthProvider = ({ children }) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
